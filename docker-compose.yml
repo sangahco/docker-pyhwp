@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  pyhwp:
+    build: .
+    volumes: 
+    - $PWD/temp:/tmp
+    # entrypoint: hwp5html
+    # command: --help
